@@ -3,7 +3,7 @@ Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, min
 
 Trabalho feito por Lucas Pimenta e Lucas Couto.
 
-## Especificações do trabalho:
+## Requisitos do trabalho:
 
 ### 1 Introdução
 
