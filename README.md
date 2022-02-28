@@ -11,21 +11,21 @@ Esse documento tem por objetivo especificar os requisitos da aplicação que apo
 desenvolvimento de uma aplicação de controle de lançamentos de créditos e débito de
 um usuário.
 
-## 2 Visão da Solução
+### 2 Visão da Solução
 
 Uma aplicação em Java (servlet+jsp) que apoia um usuário no controle de lançamentos
 de créditos e débitos como uma conta corrente de um banco. Ao acessar a aplicação
 essa contará com uma área pública (onde informações sobre a aplicação estarão
 disponíveis) e uma área privada (onde as funções do sistema estão disponíveis).
 
-## 3 Papeis
+### 3 Papeis
 
 Usuário: acessa a aplicação na sua área privada e interage com a sua conta corrente;
 Público: acessa a aplicação na sua área pública e visualiza informações gerais sobre a
 aplicação;
 Administrador: acessa a aplicação na sua área privada e administra os usuários.
 
-## 4 Escopo da Solução
+### 4 Escopo da Solução
 
 4.1 Requisitos Não Funcionais Gerais
 RNF1: Sistema deverá ser responsivo sendo obrigatório o uso do Bootstrap
@@ -52,7 +52,7 @@ RF8: O usuário cadastra seus lançamentos (crédito e débito) na conta corrent
 F9: Listagem na tela dos lançamentos com os somatórios dos débitos e créditos e
 saldo atual;
 
-## 5 Limites e Restrições da Solução
+### 5 Limites e Restrições da Solução
 
 5.1 O nome do banco de dados é: financeiro. As tabelas apresentadas abaixo não
 podem ser alteradas; será fornecido o script para o banco de dados.
