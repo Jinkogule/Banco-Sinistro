@@ -1,4 +1,5 @@
-Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, ministrada pelo professor Leonardo Cruz no Instituto de Computação da Universidade Federal Fluminense, durante o período 2º/2020.
+# Trabalho de Desenvolvimento Web - BancoSinistro
+Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, ministrada pelo professor Leonardo Cruz no Instituto de Computação da Universidade Federal Fluminense, durante o período 1º/2021.
 
 Trabalho feito por Lucas Pimenta e Lucas Couto.
 
