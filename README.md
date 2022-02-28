@@ -1,4 +1,4 @@
-Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, ministrada pelo professor Leonardo Cruz no Instituto de Computação da Universidade Federal Fluminense.
+Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, ministrada pelo professor Leonardo Cruz no Instituto de Computação da Universidade Federal Fluminense, durante o período 2º/2020.
 
 Trabalho feito por Lucas Pimenta e Lucas Couto.
 
@@ -55,14 +55,22 @@ saldo atual;
 
 5.1 O nome do banco de dados é: financeiro. As tabelas apresentadas abaixo não
 podem ser alteradas; será fornecido o script para o banco de dados.
+
 5.2 Para acessar o banco de dados deverá ser usado o usuário = root e sem senha.
+
 5.3 Deve existir um administrador previamente cadastrado no sistema (Banco de Dados)
 com o cpf= 249.252.810-38 e senha= 111
+
 5.4 Todos os logins são realizados usando cpf e senha.
+
 5.5 Deverá possuir validações de dados no cliente e no servidor.
+
 5.6 O sistema deverá ser construído usando a IDE Netbeans 8.2 e Mysql 5.7
+
 5.7 Todas as entregas (etapas) devem ser realizadas como uma aplicação Java. Não
 serão aceitos arquivos ou fontes “soltos”.
+
 5.8 A aplicação deve ser desenvolvida no estilo MVC.
+
 5.9 É obrigatório o uso de DAO.
 
