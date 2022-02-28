@@ -3,9 +3,9 @@ Aplicação Web desenvolvida para disciplina TCC00226 - Desenvolvimento Web, min
 
 Trabalho feito por Lucas Pimenta e Lucas Couto.
 
-Especificações do trabalho:
+## Especificações do trabalho:
 
-## 1 Introdução
+### 1 Introdução
 
 Esse documento tem por objetivo especificar os requisitos da aplicação que apoia o
 desenvolvimento de uma aplicação de controle de lançamentos de créditos e débito de
