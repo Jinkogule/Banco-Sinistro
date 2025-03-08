@@ -1,10 +1,10 @@
 package model;
 
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 
 @WebServlet(name = "Conexao", urlPatterns = {"/Conexao"})
 public class conexaoBD extends HttpServlet {
@@ -14,10 +14,10 @@ public class conexaoBD extends HttpServlet {
     public static Connection criaConexao() throws SQLException {
         if ( conexao == null ) {
             try {             
-                Class.forName("com.mysql.jdbc.Driver");                       
+                Class.forName("com.mysql.cj.jdbc.Driver");                       
                 System.out.println("Driver foi carregado!");
                 
-                conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/financeiro", "root", "");
+                conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/financeiro?useSSL=false&serverTimezone=UTC", "root", "12345");
                 System.out.println("Conexão realizada com sucesso!");
             }
             catch( ClassNotFoundException e ) {

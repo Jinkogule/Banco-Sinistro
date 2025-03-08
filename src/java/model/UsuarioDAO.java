@@ -3,6 +3,8 @@ package model;
 import app.Categoria;
 import app.Conta;
 import app.Lancamento;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,8 +12,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 
 @WebServlet(name = "UsuarioDAO", urlPatterns = {"/UsuarioDAO"})
 public class UsuarioDAO extends HttpServlet {

@@ -3,14 +3,14 @@ package model;
 import app.Usuario;
 import app.Administrador;
 import app.Categoria;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 
 @WebServlet(name = "AdministradorDAO", urlPatterns = {"/AdministradorDAO"})
 public class AdministradorDAO extends HttpServlet {
