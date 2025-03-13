@@ -58,9 +58,9 @@ Before you begin, make sure to:
 - Install **[Git](https://git-scm.com/)**.
 - Install **[MySQL Server 8.0.3](https://dev.mysql.com/downloads/mysql/)** (or a compatible version).
 - Run the **[database script](https://github.com/Jinkogule/Banco-Sinistro/blob/main/financeiro.sql)** to create the required schema and tables.
-- Instalar o **[JDK 15](https://www.oracle.com/br/java/technologies/downloads/#java15)** (or a compatible version) and set the `JAVA_HOME` variable with the correct JDK path.
+- Install **[JDK 15](https://www.oracle.com/br/java/technologies/downloads/#java15)** (or a compatible version) and set the `JAVA_HOME` variable with the correct JDK path.
 - Download **[MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)** to connect the project to MySQL.
-- Install o **[Apache NetBeans IDE](https://netbeans.apache.org/front/main/index.html)** to run the project.
+- Install **[Apache NetBeans IDE](https://netbeans.apache.org/front/main/index.html)** to run the project.
 - Configure a compatible web server (e.g., **[Tomcat](https://tomcat.apache.org/)** or **[GlassFish](https://javaee.github.io/glassfish/)**) in Apache NetBeans.
 
 ### **Running the Application**
@@ -79,7 +79,7 @@ git clone https://github.com/Jinkogule/Banco-Sinistro
 
 4. **Add MySQL Connector/J to the project libraries**
    - In NetBeans, right-click the project → Properties → Libraries.
-   - Na aba *Compile* (*Compile-time Libraries*), clique no **"+"** ao lado da opção *Classpath*.
+   - In the Compile (Compile-time Libraries) tab, click the **"+"** next to Classpath.
    - Select Add JAR/Folder and choose the `.jar` file for **MySQL Connector/J**.
    - Confirm and apply the changes.
 
